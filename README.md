@@ -1,8 +1,4 @@
 # Python File Locker
-#### Video Demo:
-[Click here to see the demo](https://www.youtube.com/watch?v=DuQtYlWNPdY)
-
-## Description
 
 Python File Locker is a secure command-line utility that allows users to lock (encrypt) and unlock files using password-based encryption. It offers a styled terminal interface using `rich`, and implements strong cryptographic standards via the `cryptography` library.
 
