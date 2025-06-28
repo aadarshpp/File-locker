@@ -85,16 +85,6 @@ def main():
                 console.print("[red]Decryption failed[/red]")
 
 
-'''
-These are the functions I have defined in another file (not imported form an external library).
-
-I am 're-defining' them due to this line in the guidelines -
-    Your 3 required custom functions other than main must also be in project.py and
-    defined at the same indentation level as main (i.e., not nested under any classes or functions).
-
-I apologize if anything I submitted went against your policies or contained mistakes.
-Please inform me of any issues, and I will correct them and resubmit.
-'''
 def encrypt_file(filepath: str, password: str):
     return locker.encrypt_file(filepath, password)
 
